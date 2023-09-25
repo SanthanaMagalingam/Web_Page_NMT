@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="row">
+  <div class="col-2 menu">      <!-- left section  -->
+    <div class="sm-logo">
+      <img src="./Assest/Taxi-Yellow-PNG-Photo.png" alt="">
+      <p>நம்ம ஊரு டாக்ஸி </p>
+    </div>
+    <hr>
+    <div class="float">
+      <i class="fa-solid fa-right-from-bracket"></i>
+    </div>
+    <ul>     <!-- menu bar -->
+    <li class="box" id="sm-blueid">
+        <span class="dash-bg" id="sm-blue">
+          <i class="fa-solid fa-tv" ></i>
+        </span>
+        Dashboard
+    </li>
+    <li class="box" id="sm-greenid">
+        <span class="dash-bg" id="sm-green">
+          <i class="fa-solid fa-satellite-dish" id="sat"></i>
+        </span>
+        Live Tracking
+    </li>
+    <li class="box" id="sm-skyblueid">
+        <span class="dash-bg" id="sm-skyblue">
+          <i class="fa-solid fa-user-nurse"></i>
+        </span>
+        Driver Management
+    </li>
+    <li class="box" id="sm-darkblueid"> 
+        <span class="dash-bg" id="sm-darkblue">
+          <i class="fa-solid fa-taxi"></i>
+        </span>
+        Vehicle Management
+    </li>
+    <li class="box" id="sm-lightgreenid"> 
+        <span class="dash-bg" id="sm-lightgreen">
+          <i class="fa-solid fa-car-tunnel"></i>
+        </span>
+        Manage Rides
+    </li>
+    <li class="box" id="sm-yellowid">
+        <span class="dash-bg" id="sm-yellow">
+          <i class="fa-solid fa-user-group"></i>
+        </span>
+        Employees
+    </li>
+    <li class="box" id="sm-orangeid"> 
+        <span class="dash-bg" id="sm-orange">
+          <i class="fa-solid fa-users"></i>
+        </span>
+        Clients
+    </li>
+    <li class="box" id="sm-violetid"> 
+        <span class="dash-bg" id="sm-violet">
+          <i class="fa-solid fa-suitcase-rolling"></i>
+        </span>
+        Trip History
+    </li>
+    <li class="box" id="sm-indigoid"> 
+        <span class="dash-bg" id="sm-indigo">
+          <i class="fa-solid fa-receipt"></i>
+        </span>
+        Payments
+    </li>
+    <li class="box" id="sm-pinkid">
+        <span class="dash-bg" id="sm-pink">
+          <i class="fa-solid fa-note-sticky"></i>
+        </span>
+        Reports
+    </li>
+    <li class="box" id="sm-brownid"> 
+        <span class="dash-bg" id="sm-brown">
+          <i class="fa-solid fa-coins"></i>
+        </span>
+        Fare Database
+    </li>
+    <li class="box" id="sm-redid">
+        <span class="dash-bg" id="sm-red">
+          <i class="fa-solid fa-headset"></i>
+        </span>
+        Support Tickets
+    </li>
+    <li class="box" id="sm-darkid">
+        <span class="dash-bg" id="sm-dark">
+          <i class="fa-solid fa-gear"></i>
+        </span>
+        Settings
+    </li>
+    </ul>   <!-- menu bar -->
+  </div>   <!-- left section  -->
+  <div class="col-10 sm-mainpage">
+    <div class="sm-sidehead">  <!-- side head-->
+      <div class="sm-sideleft">
+        <p>Vehicle Management/<span>All Vehicles</span></p>
+      </div>
+      <div class="sm-sideright">
+        <p class="sm-dare">May 14 2003 | 11:00 </p>
+        <div class="sm-icons1">
+          <i class="fa-solid fa-calendar-days"></i>
+          <i class="fa-solid fa-message"></i>
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="sm-name">
+          <div class="sm-admin">
+            <p>Santhanam</p>
+            <span>admin</span>
+          </div>
+          <div class="sm-bgic">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </div>    <!-- sm-side head-->
+    <div class="sm-sidesecond">    <!-- sm-side second-->
+      <div class="sm-choice" id="sm-al">
+        <p>All Vehicles</p>
+      </div>
+      <div class="sm-choice">
+        <p>Inspection Pending</p>
+      </div>
+      <div class="sm-choice">
+        <p>Manage Approval</p>
+      </div>
+      <div class="sm-choice">
+        <p>Documents Expiry</p>
+      </div>
+    </div>      <!-- sm-side second-->
+
+    <div class="sm-sidethird">    <!-- sm-side third-->
+      <div class="sm-carstatus" id="sm-carst1">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg1">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg1">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>500</h3>
+            <p>Total Vehicles</p>
+          </div>
+          <div id="sm-carbg1" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sm-carstatus" id="sm-carst2">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg2">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg2">
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>480</h3>
+            <p>Active Vehicles</p>
+          </div>
+          <div id="sm-carbg2" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sm-carstatus" id="sm-carst3">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg3">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg3">
+            <i class="fa-solid fa-power-off"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>10</h3>
+            <p>Inactive Vehicles</p>
+          </div>
+          <div id="sm-carbg3" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sm-carstatus" id="sm-carst4">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg4">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg4">
+            <i class="fa-solid fa-moon"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>10</h3>
+            <p>Idle Vehicles</p>
+          </div>
+          <div id="sm-carbg4" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sm-carstatus" id="sm-carst5">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg5">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg5">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>20</h3>
+            <p>Vehicle Approval Pending</p>
+          </div>
+          <div id="sm-carbg5" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sm-carstatus" id="sm-carst6">
+        <div class="sm-up">
+          <div class="sm-left" id="sm-carbg6">
+            <i class="fa-solid fa-taxi"></i>
+          </div>
+          <div class="sm-right" id="sm-carbg6">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+        </div>
+        <div class="sm-down">
+          <div class="sm-data">
+            <h3>2</h3>
+            <p>Vehicle Approval Rejected</p>
+          </div>
+          <div id="sm-carbg6" class="sm-right">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+    </div>    <!-- sm-side third-->   
+
+    <div class="sm-sidefourth">   <!-- sm-side fourth-->   
+        <div class="sm-fourthleft">
+          <div class="sm-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="sm-searchsize" type="search" placeholder="Search">
+          </div>
+          <div class="sm-dropbox">
+            <select class="sm-drop1">
+              <option>Inspection Status</option>
+              <option>Visited</option>
+              <option>Not Visited</option>
+          </select>
+          </div>
+          <div class="sm-dropbox">
+            <select class="sm-drop1">
+              <option>Vehicle Status</option>
+              <option>Active</option>
+              <option>Inactive</option>
+          </select>
+          </div>
+          <div class="sm-dropbox">
+            <select class="sm-drop1">
+              <option>Data Range</option>
+              <option>Local</option>
+              <option>National</option>
+            </select>
+          </div>
+          <div class="sm-dropbox">
+            <select class="sm-drop1">
+              <option>Type</option>
+              <option>Ac</option>
+              <option>Non-Ac</option>
+            </select>
+          </div>
+          <div class="sm-dropbox">
+            <select class="sm-drop1">
+              <option>Engaged</option>
+              <option>Yes</option>
+              <option>No</option>
+              <option>25</option>
+              <option>50</option>
+              <option>75</option>
+            </select>
+          </div>
+        </div>
+        <div class="sm-fourthright">
+          <div class="sm-dropbox">
+            <select class="sm-drop1" id="sm-extradrop">
+              <option>25</option>
+              <option>50</option>
+              <option>75</option>
+            </select>
+          </div>
+          <div class="sm-blueicons" id="sm-blueic1">
+            <i class="fa-solid fa-filter"></i>
+          </div>
+          <div class="sm-blueicons" id="sm-blueic2">
+            <i class="fa-solid fa-upload"></i>
+          </div>
+          <div class="sm-blueicons" id="sm-blueic3">
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </div>
+          <div class="sm-addfile">
+            <h4>+</h4>
+            <p>Add New Vehicle</p>
+        </div>
+        </div>
+    </div>    <!-- sm-side fourth-->
+    <div class="sm-sidefifth">
+      <table class="sm-table">  
+        <tr class="sm-tablehead">
+          <th>SL NO</th>
+          <th>REGISTRATION NO</th>
+          <th>VEHICLE ID</th>
+          <th>TYPE</th>
+          <th>OWNER NAME</th>
+          <th>PHONE NO</th>
+          <th>EMAIL ADDRESS</th>
+          <th>BRAND</th>
+          <th>MODEL</th>
+          <th>ENGAGED</th>
+          <th>REGISTERED DATE</th>
+          <th>INSPECTION DATE</th>
+          <th>VEHICLE STATE</th>
+          <th>ACTION</th>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>TN 01 AB 1234</td>
+          <td>NOTVH0001</td>
+          <td>Lease</td>
+          <td>Ezio Auditore</td>
+          <td>9876543210</td>
+          <td>ezioauditore@gmail.com</td>
+          <td>Maruti Suzuki</td>
+          <td>Swift LXI</td>
+          <td>Yes</td>
+          <td>01 Jan 2023</td>
+          <td><select id="sm-boxdown1">
+            <option class="sm-pend">Pending</option>
+            <option class="sm-Ins">Inspected</option>
+            <option class="sm-cli">Client Approved</option>
+            <option class="sm-rej">Rejeced</option>
+            <option class="sm-inc">Incomplete</option>
+        </select></td>
+        <td><select id="sm-boxdown2">
+            <option class="sm-cli">Active</option>
+            <option class="sm-rej">Inactive</option>
+            <option class="sm-pend">Idle</option>
+            <option class="sm-Ins">Temporarily Blocked</option>
+            <option class="sm-inc">Permanently Blocked</option>
+        </select></td>
+          <td class="sm-tbic">
+            <div class="sm-tbicons1">
+              <i class="fa-regular fa-eye"></i>
+            </div>
+            <div class="sm-tbicons2">
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <div class="sm-tbicons3">
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+          </td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>TN 01 AB 5678</td>
+          <td>NOTVH0002</td>
+          <td>Attached</td>
+          <td>Alexander</td>
+          <td>9876543210</td>
+          <td>alexander@gmail.com</td>
+          <td>Hyundai</td>
+          <td>i10 S(O)</td>
+          <td>No</td>
+          <td>01 Jan 2023</td>
+          <td><select id="sm-boxdown1">
+            <option class="sm-pend">Pending</option>
+            <option class="sm-Ins">Inspected</option>
+            <option class="sm-cli">Client Approved</option>
+            <option class="sm-rej">Rejeced</option>
+            <option class="sm-inc">Incomplete</option>
+        </select></td>
+        <td><select id="sm-boxdown2">
+            <option class="sm-cli">Active</option>
+            <option class="sm-rej">Inactive</option>
+            <option class="sm-pend">Idle</option>
+            <option class="sm-Ins">Temporarily Blocked</option>
+            <option class="sm-inc">Permanently Blocked</option>
+        </select></td>
+          <td class="sm-tbic">
+            <div class="sm-tbicons1">
+              <i class="fa-regular fa-eye"></i>
+            </div>
+            <div class="sm-tbicons2">
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <div class="sm-tbicons3">
+              <i class="fa-solid fa-trash-can"></i>
+            </div>
+          </td>
+      </tr>
+      </table>
+    </div>  
+  </div>  <!-- main page  -->
+</div> 
+</body>
+</html>
