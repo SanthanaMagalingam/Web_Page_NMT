@@ -322,7 +322,7 @@
         </div>
     </div>    <!-- sm-side fourth-->
     <div class="sm-sidefifth">
-      <table class="sm-table">  
+      <table class="sm-table"  cellspacing="0">  
         <tr class="sm-tablehead">
           <th>SL NO</th>
           <th>REGISTRATION NO</th>
@@ -351,19 +351,19 @@
           <td>Swift LXI</td>
           <td>Yes</td>
           <td>01 Jan 2023</td>
-          <td><select id="sm-boxdown1">
-            <option class="sm-pend">Pending</option>
-            <option class="sm-Ins">Inspected</option>
-            <option class="sm-cli">Client Approved</option>
-            <option class="sm-rej">Rejeced</option>
-            <option class="sm-inc">Incomplete</option>
+          <td><select class="sm-boxdown1" id="myDropdown">
+            <option value="option1" class="sm-col-yellow">Pending</option>
+            <option value="option2" class="sm-col-blue">Inspected</option>
+            <option value="option3" class="sm-col-green">Client Approved</option>
+            <option value="option4" class="sm-col-red">Rejeced</option>
+            <option value="option5" class="sm-col-orange">Incomplete</option>
         </select></td>
-        <td><select id="sm-boxdown2">
-            <option class="sm-cli">Active</option>
-            <option class="sm-rej">Inactive</option>
-            <option class="sm-pend">Idle</option>
-            <option class="sm-Ins">Temporarily Blocked</option>
-            <option class="sm-inc">Permanently Blocked</option>
+        <td><select class="sm-boxdown2" id="myDropdown1">
+            <option value="option3" class="sm-col-green">Active</option>
+            <option value="option4" class="sm-col-red">Inactive</option>
+            <option value="option1" class="sm-col-yellow">Idle</option>
+            <option value="option2" class="sm-col-blue">Temporarily Blocked</option>
+            <option value="option5" class="sm-col-orange">Permanently Blocked</option>
         </select></td>
           <td class="sm-tbic">
             <div class="sm-tbicons1">
@@ -389,20 +389,20 @@
           <td>i10 S(O)</td>
           <td>No</td>
           <td>01 Jan 2023</td>
-          <td><select id="sm-boxdown1">
-            <option class="sm-pend">Pending</option>
-            <option class="sm-Ins">Inspected</option>
-            <option class="sm-cli">Client Approved</option>
-            <option class="sm-rej">Rejeced</option>
-            <option class="sm-inc">Incomplete</option>
+          <td><select class="sm-boxdown1" id="myDropdown2">
+            <option value="option1" class="sm-col-yellow">Pending</option>
+            <option value="option2" class="sm-col-blue">Inspected</option>
+            <option value="option3" class="sm-col-green">Client Approved</option>
+            <option value="option4" class="sm-col-red">Rejeced</option>
+            <option value="option5" class="sm-col-orange">Incomplete</option>
         </select></td>
-        <td><select id="sm-boxdown2">
-            <option class="sm-cli">Active</option>
-            <option class="sm-rej">Inactive</option>
-            <option class="sm-pend">Idle</option>
-            <option class="sm-Ins">Temporarily Blocked</option>
-            <option class="sm-inc">Permanently Blocked</option>
-        </select></td>
+        <td><select class="sm-boxdown2" id="myDropdown3">
+          <option value="option3" class="sm-col-green">Active</option>
+          <option value="option4" class="sm-col-red">Inactive</option>
+          <option value="option1" class="sm-col-yellow">Idle</option>
+          <option value="option2" class="sm-col-blue">Temporarily Blocked</option>
+          <option value="option5" class="sm-col-orange">Permanently Blocked</option>
+      </select></td>
           <td class="sm-tbic">
             <div class="sm-tbicons1">
               <i class="fa-regular fa-eye"></i>
@@ -419,5 +419,6 @@
     </div>  
   </div>  <!-- main page  -->
 </div> 
+<script src="./script.js"></script>
 </body>
 </html>
