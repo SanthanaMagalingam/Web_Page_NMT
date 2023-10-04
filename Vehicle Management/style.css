@@ -275,8 +275,8 @@
 
 .sm-sideright{
   display: flex;
-  width: 41.66%;
-  justify-content: space-between;
+  width: 50%;
+  justify-content: right;
   align-items: center;
 }
 
@@ -292,13 +292,18 @@
   align-items: center;
 }
 
+.sm-admin{
+  text-align: right;
+  width: 60%;
+}
+
 .sm-name p{
   font-weight: 600;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sm-name span{
-  margin-left: 45px;
+  /* margin-left: 50%; */
   font-size: 12px;
   color: #c6c6c6;
 }
@@ -307,7 +312,7 @@
   background-color:  #c6c6c6;
   height: 30px;
   width: 30px;
-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .sm-bgic i{
@@ -316,14 +321,31 @@ border-radius: 50%;
 
 }
 
+#smice{
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
 .sm-icons1{
   display: flex;
-  justify-content: space-around;
-  width: 25%;
+  justify-content: right;
+  width: 60%;
+  margin-right: 3%;
+  align-items: center;
+}
+
+.sm-d-i{
+  display: flex;
+  width: 160%;
+  justify-content: right;
 }
 
 .sm-icons1 i{
   font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
 }
 
 .sm-sidesecond{
@@ -605,13 +627,14 @@ border-radius: 50%;
   display: flex;
   justify-content: space-between;
   height: 20px;
-  width: 70px;
+  width: 85px;
 }
 
 .sm-tbicons1{
   background-color: rgb(226, 226, 241);
   color: blue;
   width: 20px;
+  height: 20px;
   border-radius: 2px;
 }
 
@@ -624,6 +647,7 @@ border-radius: 50%;
   background-color: rgb(236, 216, 199);
   color: rgb(238, 137, 5);
   width: 20px;
+  height: 20px;
   border-radius: 2px;
 }
 
@@ -635,7 +659,9 @@ border-radius: 50%;
 .sm-tbicons3{
   background-color: rgb(236, 204, 204);
   color: rgb(255, 0, 0);
+  padding-left: 2px;
   width: 20px;
+  height: 20px;
   border-radius: 2px;
 }
 
@@ -646,6 +672,14 @@ border-radius: 50%;
 
 .sm-tbic i{
   padding:3px
+}
+
+th{
+  padding: 5px 10px 5px 10px;
+}
+
+td{
+  padding: 5px 10px 5px 10px;
 }
 
 /* colors */
@@ -686,6 +720,12 @@ border-radius: 50%;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
   
+  @media only screen and (max-width: 1024px) {
+    .sm-dare{
+      display: none;
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -706,21 +746,53 @@ border-radius: 50%;
       width: 103%;
       background-color: #c6c6c6;
     } 
+    .sm-d-i p{
+      display: none;
+    }
+
+    .sm-d-i i{
+      margin-left: 100px;
+    }
+
+    .sm-d-i{
+      /* background-color: yellow; */
+      width: 20%;
+    }
 
     .sm-sideright{
       width: 66.66%;
       justify-content: space-evenly;
+      align-items: center;
     }
 
     .sm-icons1{
-      width: 25%;
+      margin-left: 20%;
+      width: 40%;
       justify-content: space-evenly;
+      color: transparent;
+    }
+
+    .sm-bgic{
+      background-color: #f7f1f1;
+    }
+
+    .sm-icons1 i{
+      color:black;
     }
 
     .sm-sideleft{
       width: 33.33%;
       margin-left: 10px;
       padding-top: 39px;
+    }
+
+    .sm-name{
+      /* background-color: yellow; */
+      width:45%;
+    }
+
+    .sm-admin span{
+      color: #000;
     }
 
     .sm-sidesecond{
@@ -796,6 +868,7 @@ border-radius: 50%;
     .sm-sideright{
       width: 66.66%;
       justify-content: space-evenly;
+      /* background-color: yellow; */
     }
 
     .sm-sideleft{
@@ -812,9 +885,29 @@ border-radius: 50%;
       font-size: 15px;
     }
 
+    .sm-d-i{
+      width:100% ;
+      /* background-color: yellow; */
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+
     .sm-icons1{
-      width: 25%;
-      justify-content: space-evenly;
+      flex-direction: column;
+      width: 20%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      /* background-color: violet; */
+    }
+
+    #smice{
+      margin: 0;
+      margin-left: 5%;
+      margin-bottom: 15px;
+      margin-top: 15px;
     }
 
     .sm-sidehead{
